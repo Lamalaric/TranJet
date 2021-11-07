@@ -16,6 +16,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: unset;
+    padding: unset;
+}
+
 :root {
     /* A changer par notre charte graphique */
     --clr-text : #FFF;
