@@ -10,7 +10,7 @@
     <!--	<link rel="icon" href="images/logo.ico" />-->
     <link rel="stylesheet" href="styles/style.css" type="text/css" />
     <link rel="stylesheet" href="styles/mediaqueries.css" type="text/css" />
-    <script src="../scripts/script.js" ></script>
+    <script type="text/javascript" src="scripts/script.js" ></script>
 </head>
 
 <header>
