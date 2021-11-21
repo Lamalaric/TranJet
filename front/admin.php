@@ -106,6 +106,66 @@ include("includes/header.inc.php");
                             <td>XXXXXX</td>
                             <td><i class="fas fa-trash"></i></td>
                         </tr>
+                        <tr>
+                            <td>Walid</td>
+                            <td>XXXXXX</td>
+                            <td><i class="fas fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Yusuf</td>
+                            <td>XXXXXX</td>
+                            <td><i class="fas fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Mohamed</td>
+                            <td>XXXXXX</td>
+                            <td><i class="fas fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Walid</td>
+                            <td>XXXXXX</td>
+                            <td><i class="fas fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Yusuf</td>
+                            <td>XXXXXX</td>
+                            <td><i class="fas fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Mohamed</td>
+                            <td>XXXXXX</td>
+                            <td><i class="fas fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Walid</td>
+                            <td>XXXXXX</td>
+                            <td><i class="fas fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Yusuf</td>
+                            <td>XXXXXX</td>
+                            <td><i class="fas fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Mohamed</td>
+                            <td>XXXXXX</td>
+                            <td><i class="fas fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Walid</td>
+                            <td>XXXXXX</td>
+                            <td><i class="fas fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Yusuf</td>
+                            <td>XXXXXX</td>
+                            <td><i class="fas fa-trash"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Mohamed</td>
+                            <td>XXXXXX</td>
+                            <td><i class="fas fa-trash"></i></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>

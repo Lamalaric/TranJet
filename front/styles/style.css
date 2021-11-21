@@ -21,7 +21,7 @@
     --clr-background: #dadada;
     --clr-grey: #ebebeb;
     --clr-green: #20b708;
-    --clr-orange: #fdc05d;
+    --clr-orange: #e59000;
     --clr-red: #c91515;
     --clr-white: #ffffff;
 
@@ -215,7 +215,7 @@ input[type=submit] {
 }
 
 /* INTERFACE ADMIN */
-.admin {
+.admin, .cdg {
     display: grid;
     grid-template-columns: .85fr minmax(600px, 3fr) .85fr;
 }
@@ -231,7 +231,7 @@ input[type=submit] {
     margin-top: 1em;
     box-shadow: 0 5px 6px 0 rgb(137 137 137), 0 2px 2px 0 rgb(0 0 0 / 24%);
 }
-.admin section {
+.admin section, .cdg section {
     grid-column: 2;
 }
 
@@ -279,7 +279,7 @@ input[type=submit] {
     border: 1px solid black;
     border-radius: 10px;
 }
-.container-recherche .filtres div:nth-of-type(2n) {
+.container-recherche .filtres div:not(:first-of-type) {
     margin-top: 2em;
 }
 .container-recherche .filtres p {
@@ -309,7 +309,7 @@ input[type=submit] {
 
 
 .container-resultats {
-    margin-top: 1em;
+    margin: 1em 0 5em 0;
     row-gap: 2em;
 }
 .container-resultats .divers {
@@ -342,14 +342,34 @@ input[type=submit] {
     border-collapse: collapse;
 }
 .container-resultats th, .container-resultats td {
-    padding: 5px 15px;
-    border: 1px solid var(--clr-accent);
+    padding: 13px 15px;
     width: 14em;
 }
-.container-resultats th:nth-of-type(3), .container-resultats td:nth-of-type(3) {
+.container-resultats th:first-of-type, .container-resultats td:first-of-type {
+    border-left: 1px solid var(--clr-accent);
+    /*box-shadow: 0 5px 6px 0 rgb(137 137 137), 0 2px 2px 0 rgb(0 0 0 / 24%);*/
+}
+.container-resultats tr:last-of-type td:not(:last-of-type) {
+    border-bottom: 1px solid var(--clr-accent);
+}
+.container-resultats tr td:nth-last-child(2) {
+    border-right: 1px solid var(--clr-accent);
+}
+.container-resultats th:last-of-type, .container-resultats td:last-of-type {
     border: none;
     width: auto;
 }
-.container-resultats td i {
+.container-resultats th:not(:last-of-type) {
+    background-color: var(--clr-accent);
+}
+.container-resultats tr:nth-of-type(2n) td:not(:last-of-type) {
+    background-color: var(--clr-grey);
+}
+.admin .container-resultats td i {
+    cursor: pointer;
     color: var(--clr-red);
+}
+.cdg .container-resultats td i {
+    cursor: pointer;
+    color: var(--clr-orange);
 }
