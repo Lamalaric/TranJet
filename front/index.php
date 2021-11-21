@@ -3,8 +3,9 @@ include("includes/header.inc.php");
 ?>
 
 <body>
-<main>
+<main style="display: flex; flex-direction: column; align-items: center; row-gap: 2em">
     <p>Clique ici bouffon : <a href="connexion.php">oui ici oui oui owi</a></p>
+    <p>Accès à l'interface admin : <a href="admin.php">non ici non non nown</a></p>
 </main>
 </body>
 
