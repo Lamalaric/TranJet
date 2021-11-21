@@ -11,7 +11,8 @@ include("includes/header.inc.php");
         <p>Encore X essais</p>
         <form action="post">
             <input type="text" name="identifiant" placeholder="Identifiant" required>
-            <input type="password" name="mdp" placeholder="Mot de passe" required>
+            <input id="mdp" type="password" name="mdp" placeholder="Mot de passe" required>
+            <i onclick="togglePasswordVisibility('mdp')" class="fas fa-low-vision"></i>
             <a class="forgot-pwd" href="">Mot de passe oublié ?</a>
             <input type="submit" name="btn-connexion" value="Connexion">
         </form>
