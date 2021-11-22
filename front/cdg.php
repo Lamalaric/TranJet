@@ -25,10 +25,10 @@ include("includes/header.inc.php");
                 <div>
                     <p>Tri</p>
                     <label>Ascendant
-                        <input class="asc" type="radio">
+                        <input class="asc" type="radio" name="tri">
                     </label>
                     <label>Descendant
-                        <input class="desc" type="radio">
+                        <input class="desc" type="radio" name="tri">
                     </label>
                 </div>
 
