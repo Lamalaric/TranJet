@@ -6,7 +6,6 @@
         <serverdata>
           <mappings>
             <mapping deploy="/WWW/TranJet" local="$PROJECT_DIR$" web="/TranJet/" />
-            <mapping local="" />
           </mappings>
         </serverdata>
       </paths>
