@@ -36,8 +36,15 @@ body {
     margin: unset;
     padding: unset;
 }
-main {
+main:not(.connexion):not(.creation) {
     margin-top: 6em;
+    display: grid;
+    grid-template-columns: .85fr minmax(600px, 3fr) .85fr;
+}
+main:not(.connexion):not(.creation) section {
+    grid-column: 2;
+}
+.creation, .connexion {
     display: flex;
     justify-content: space-evenly;
 }
@@ -52,6 +59,9 @@ p {
 a {
     color: var(--clr-text);
     text-decoration: none;
+}
+input[type=submit] {
+    cursor: pointer;
 }
 
 /* HEADER */
@@ -87,9 +97,6 @@ header a::after {
 }
 header a:hover::after {
     transform: scale(1,1);
-}
-input[type=submit] {
-    cursor: pointer;
 }
 
 
@@ -214,11 +221,28 @@ input[type=submit] {
     text-align: center;
 }
 
-/* INTERFACE ADMIN */
-.admin, .cdg {
-    display: grid;
-    grid-template-columns: .85fr minmax(600px, 3fr) .85fr;
+
+/* STYLES PROPRE A CHAQUE PAGE */
+.admin .container-resultats td i {
+    cursor: pointer;
+    color: var(--clr-red);
 }
+.cdg .container-resultats td i {
+    cursor: pointer;
+    color: var(--clr-orange);
+}
+.tableau-sans-option {
+    border: 1px solid var(--clr-accent);
+}
+.tableau-sans-option th {
+    background-color: var(--clr-accent);
+}
+.tableau-sans-option tr:nth-of-type(2n) {
+    background-color: var(--clr-grey);
+}
+
+
+/* STYLES COMMUN POUR LES BLOCS RECHERCHE / TABLEAU DE TOUTES LES PAGES */
 .container {
     display: flex;
     flex-direction: column;
@@ -231,9 +255,6 @@ input[type=submit] {
     margin-top: 1em;
     box-shadow: 0 5px 6px 0 rgb(137 137 137), 0 2px 2px 0 rgb(0 0 0 / 24%);
 }
-.admin section, .cdg section {
-    grid-column: 2;
-}
 
 
 .container-recherche > * {
@@ -244,8 +265,31 @@ input[type=submit] {
     font-size: 1em;
     padding-left: 10px;
     border: 1px solid black;
-    fill: #ffffff;
+    fill: var(--clr-white);
 }
+
+
+.container-recherche .affichage {
+    width: 100%; height: 2em;
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container-recherche .affichage button {
+    background-color: var(--clr-grey);
+    font-family: "Raleway regular", sans-serif;
+    font-size: 1em;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.container-recherche .affichage .current-display {
+    background-color: var(--clr-accent);
+}
+
+
 .container-recherche .recherche {
     width: 100%; height: 2em;
     display: flex;
@@ -261,7 +305,7 @@ input[type=submit] {
     border-radius: 0 10px 10px 0;
     border-left: inherit;
 }
-.container-recherche button {
+.container-recherche button:not([type=button]) {
     font-family: "Raleway regular", sans-serif;
     font-size: 1em;
     padding: 5px 15px;
@@ -345,31 +389,25 @@ input[type=submit] {
     padding: 16px 15px;
     width: 14em;
 }
-.container-resultats th:first-of-type, .container-resultats td:first-of-type {
-    border-left: 1px solid var(--clr-accent);
-    /*box-shadow: 0 5px 6px 0 rgb(137 137 137), 0 2px 2px 0 rgb(0 0 0 / 24%);*/
+.container-resultats tr :not(:first-child) {
+    text-align: center;
 }
-.container-resultats tr:last-of-type td:not(:last-of-type) {
+.container-resultats table:not(.tableau-sans-option) th:first-of-type, .container-resultats table:not(.tableau-sans-option) td:first-of-type {
+    border-left: 1px solid var(--clr-accent);
+}
+.container-resultats table:not(.tableau-sans-option) tr:last-of-type td:not(:last-of-type) {
     border-bottom: 1px solid var(--clr-accent);
 }
-.container-resultats tr td:nth-last-child(2) {
+.container-resultats table:not(.tableau-sans-option) tr td:nth-last-child(2) {
     border-right: 1px solid var(--clr-accent);
 }
-.container-resultats th:last-of-type, .container-resultats td:last-of-type {
+.container-resultats table:not(.tableau-sans-option) th:last-of-type, .container-resultats table:not(.tableau-sans-option) td:last-of-type {
     border: none;
     width: auto;
 }
-.container-resultats th:not(:last-of-type) {
+.container-resultats table:not(.tableau-sans-option) th:not(:last-of-type) {
     background-color: var(--clr-accent);
 }
-.container-resultats tr:nth-of-type(2n) td:not(:last-of-type) {
+.container-resultats table:not(.tableau-sans-option) tr:nth-of-type(2n) td:not(:last-of-type) {
     background-color: var(--clr-grey);
-}
-.admin .container-resultats td i {
-    cursor: pointer;
-    color: var(--clr-red);
-}
-.cdg .container-resultats td i {
-    cursor: pointer;
-    color: var(--clr-orange);
 }
