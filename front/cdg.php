@@ -94,6 +94,7 @@ include("includes/header.inc.php");
 
             <!-- Rajoute un <tr> pour chaque résultat -->
             <div class="tableau">
+                <p>tableau utilisateur</p>
                 <table>
                     <thead>
                         <tr>
@@ -258,6 +259,278 @@ include("includes/header.inc.php");
                             <td>XXXXXX</td>
                             <td><i class="fas fa-bell"></i></td>
                         </tr>
+                    </tbody>
+                </table>
+
+                <p>tableau remises</p>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>ID remise</th>
+                        <th>Montant brut</th>
+                        <th>Montant commission</th>
+                        <th>Montant net</th>
+                        <th>Sens</th>
+                        <th>Devise</th>
+                        <th>Nombre de transactions</th>
+                        <th>Date de traitement</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Walid</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Yusuf</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Mohamed</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Walid</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Yusuf</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Mohamed</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Walid</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Yusuf</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Mohamed</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Walid</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Yusuf</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Mohamed</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Walid</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Yusuf</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Mohamed</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>XXXXXX</td>
+                        <td>+</td>
+                        <td>€</td>
+                        <td>2</td>
+                        <td>1/01/2021</td>
+                        <td><i class="fas fa-plus"></i></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <p>tableau impayés</p>
+                <table class="tableau-sans-option">
+                    <thead>
+                    <tr>
+                        <th>Motif</th>
+                        <th>Montant brut</th>
+                        <th>Date</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Pauvreté</td>
+                        <td>696969</td>
+                        <td>1/01/2021</td>
+                    </tr>
                     </tbody>
                 </table>
             </div>

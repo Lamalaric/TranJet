@@ -382,6 +382,7 @@ header a:hover::after {
     column-gap: 3px;
 }
 .container-resultats table {
+    margin: 0 auto;
     table-layout: fixed;
     border-collapse: collapse;
 }
