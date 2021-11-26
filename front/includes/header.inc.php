@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>TranJet</title>
+    <title>Krüm</title>
     <meta name="author" content="La communauté communiste" />
     <meta name="description" content="Tran le dictateur">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,9 +14,9 @@
 </head>
 
 <header>
-    <a class="header-title" href="index.php"><h1>TranJet</h1></a>
+    <h1><a class="header-title" href="index.php">Krüm</a></h1>
     <span>
-        <a href="creation.php">Créer un compte</a>
+        <a href="creation.php">NomD'utilisateur</a>
         <a href="connexion.php">Se connecter</a>
     </span>
 </header>
