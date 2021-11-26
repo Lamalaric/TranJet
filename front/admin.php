@@ -52,6 +52,7 @@ include("includes/header.inc.php");
 
         <hr class="separateur">
 
+        <!--  TABLEAU DE RESULTATS  -->
         <section class="container-resultats container">
             <div class="divers">
                 <div>

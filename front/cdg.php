@@ -9,6 +9,13 @@ include("includes/header.inc.php");
 
         <!--  FORMULAIRE DE RECHERCHE  -->
         <section class="container-recherche container">
+            <!-- Appliquer la classe current-display au lien cliqué, et enlever les autres -->
+            <div class="affichage">
+                <button class="current-display" type="button">Utilisateur</button>
+                <button type="button">Remises</button>
+                <button type="button">Impayés</button>
+            </div>
+
             <form class="recherche" action="" method="POST">
                 <input type="text" placeholder="Rechercher un utilisateur" required>
                 <select name="critere_recherche" required>
@@ -56,6 +63,7 @@ include("includes/header.inc.php");
 
         <hr class="separateur">
 
+        <!--  TABLEAU DE RESULTATS  -->
         <section class="container-resultats container">
             <div class="divers">
                 <div>
@@ -91,7 +99,6 @@ include("includes/header.inc.php");
                         <tr>
                             <th>ID utilisateur</th>
                             <th>N°SIREN</th>
-                            <th>Solde</th>
                             <th>Numéro carte</th>
                             <th>Nombre remises</th>
                             <th>Nombre transactions</th>
@@ -109,7 +116,6 @@ include("includes/header.inc.php");
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
-                            <td>XXXXXX</td>
                             <td><i class="fas fa-bell"></i></td>
                         </tr>
                         <tr>
@@ -120,12 +126,10 @@ include("includes/header.inc.php");
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
-                            <td>XXXXXX</td>
                             <td><i class="fas fa-bell"></i></td>
                         </tr>
                         <tr>
                             <td>Mohamed</td>
-                            <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
@@ -142,7 +146,6 @@ include("includes/header.inc.php");
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
-                            <td>XXXXXX</td>
                             <td><i class="fas fa-bell"></i></td>
                         </tr>
                         <tr>
@@ -153,12 +156,10 @@ include("includes/header.inc.php");
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
-                            <td>XXXXXX</td>
                             <td><i class="fas fa-bell"></i></td>
                         </tr>
                         <tr>
                             <td>Mohamed</td>
-                            <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
@@ -175,7 +176,6 @@ include("includes/header.inc.php");
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
-                            <td>XXXXXX</td>
                             <td><i class="fas fa-bell"></i></td>
                         </tr>
                         <tr>
@@ -186,12 +186,10 @@ include("includes/header.inc.php");
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
-                            <td>XXXXXX</td>
                             <td><i class="fas fa-bell"></i></td>
                         </tr>
                         <tr>
                             <td>Mohamed</td>
-                            <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
@@ -208,7 +206,6 @@ include("includes/header.inc.php");
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
-                            <td>XXXXXX</td>
                             <td><i class="fas fa-bell"></i></td>
                         </tr>
                         <tr>
@@ -219,12 +216,10 @@ include("includes/header.inc.php");
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
-                            <td>XXXXXX</td>
                             <td><i class="fas fa-bell"></i></td>
                         </tr>
                         <tr>
                             <td>Mohamed</td>
-                            <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
@@ -241,7 +236,6 @@ include("includes/header.inc.php");
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
-                            <td>XXXXXX</td>
                             <td><i class="fas fa-bell"></i></td>
                         </tr>
                         <tr>
@@ -252,12 +246,10 @@ include("includes/header.inc.php");
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
-                            <td>XXXXXX</td>
                             <td><i class="fas fa-bell"></i></td>
                         </tr>
                         <tr>
                             <td>Mohamed</td>
-                            <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
                             <td>XXXXXX</td>
