@@ -245,10 +245,9 @@ include("includes/header.inc.php");
                     </tr>
                     </tbody>
                 </table>
-            </div>
-            <div class="tableau">
+
                 <p>tableau remises</p>
-                <table class="tableau-remises">
+                <table>
                     <thead>
                     <tr>
                         <th>ID remise</th>
@@ -430,8 +429,7 @@ include("includes/header.inc.php");
                     </tr>
                     </tbody>
                 </table>
-            </div>
-            <div class="tableau">
+
                 <p>tableau impayés</p>
                 <table class="tableau-sans-option">
                     <thead>
