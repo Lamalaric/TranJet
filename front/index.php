@@ -8,6 +8,7 @@ include("includes/header.inc.php");
     <p>Accès à l'interface admin : <a href="admin.php">non ici non non nown</a></p>
     <p>Accès à l'interface CDG : <a href="cdg.php">noui ici noui noui nwi</a></p>
     <p>Accès à l'interface PO : <a href="po.php">wo ici wo wo woooow</a></p>
+    <p>Accès à l'interface client : <a href="client.php">wé ici wé wé wééééw</a></p>
 </main>
 </body>
 

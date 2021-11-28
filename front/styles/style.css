@@ -223,12 +223,13 @@ header a:hover::after {
 
 
 /* STYLES PROPRE A CHAQUE PAGE */
-.admin .container-resultats td i {
+.container-resultats i {
     cursor: pointer;
+}
+.admin .container-resultats td i {
     color: var(--clr-red);
 }
 .cdg .container-resultats td i {
-    cursor: pointer;
     color: var(--clr-orange);
 }
 .tableau-sans-option {
@@ -382,9 +383,13 @@ header a:hover::after {
     column-gap: 3px;
 }
 .container-resultats table {
+    display: none;
     margin: 0 auto;
     table-layout: fixed;
     border-collapse: collapse;
+}
+.container-resultats table:first-of-type {
+    display: table;
 }
 .container-resultats th, .container-resultats td {
     padding: 16px 15px;
@@ -409,6 +414,27 @@ header a:hover::after {
 .container-resultats table:not(.tableau-sans-option) th:not(:last-of-type) {
     background-color: var(--clr-accent);
 }
-.container-resultats table:not(.tableau-sans-option) tr:nth-of-type(2n) td:not(:last-of-type) {
+.container-resultats table:not(.tableau-sans-option) tr:nth-of-type(4n+1) td:not(:last-of-type) {
     background-color: var(--clr-grey);
+}
+.container-resultats .container-sous-tableau {
+    /*display: none;*/
+}
+.container-resultats #sous-tableau {
+    font-size: .8em;
+    padding: 0;
+    border: 1px solid var(--clr-orange);
+}
+.container-resultats #sous-tableau th {
+    background-color: #fdc05d70;
+    padding: 0.5em;
+}
+.container-resultats #sous-tableau td {
+    background-color: #dbdbdb;
+    font-size: 1em;
+    border: unset;
+}
+.container-resultats #btn-tableau-1 {
+    background-color: var(--clr-white);
+    border: none;
 }

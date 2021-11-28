@@ -11,9 +11,9 @@ include("includes/header.inc.php");
         <section class="container-recherche container">
             <!-- Appliquer la classe current-display au lien cliqué, et enlever les autres -->
             <div class="affichage">
-                <button class="current-display" type="button">Utilisateur</button>
-                <button type="button">Remises</button>
-                <button type="button">Impayés</button>
+                <button class="current-display" type="button" onclick="selectTable(0)">Utilisateur</button>
+                <button type="button" onclick="selectTable(1)">Remises</button>
+                <button type="button" onclick="selectTable(2)">Impayés</button>
             </div>
 
             <form class="recherche" action="" method="POST">
@@ -94,7 +94,6 @@ include("includes/header.inc.php");
 
             <!-- Rajoute un <tr> pour chaque résultat -->
             <div class="tableau">
-                <p>tableau utilisateur</p>
                 <table class="tableau-sans-option">
                     <thead>
                     <tr>
@@ -246,7 +245,6 @@ include("includes/header.inc.php");
                     </tbody>
                 </table>
 
-                <p>tableau remises</p>
                 <table>
                     <thead>
                     <tr>
@@ -430,7 +428,6 @@ include("includes/header.inc.php");
                     </tbody>
                 </table>
 
-                <p>tableau impayés</p>
                 <table class="tableau-sans-option">
                     <thead>
                     <tr>
