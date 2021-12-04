@@ -303,6 +303,23 @@ include("includes/header.inc.php");
             </div>
         </section>
 
+        <section class="container-export container">
+            <div class="exporter">
+                <button type="button" onclick="">Exporter tout</button>
+                <button type="button" onclick="">Exporter l'extrait</button>
+            </div>
+
+            <p>Format d'export</p>
+            <div class="choix-export">
+                <input type="radio" name="export" id="xlsx" value="xlsx">
+                <label for="xlsx">.xlsx</label>
+                <input type="radio" name="export" id="csv" value="csv">
+                <label for="csv">.csv</label>
+                <input type="radio" name="export" id="pdf" value="pdf" checked>
+                <label for="pdf">.pdf</label>
+            </div>
+        </section>
+
     </main>
     </body>
 
