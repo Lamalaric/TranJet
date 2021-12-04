@@ -22,7 +22,7 @@ function toggleFilters(id) {
 function selectTable(n) {
     //On récupère une liste de tous les tableaux de la page,
     //On passe tous les tableaux en display: none SAUF pour le tableau concerné
-    let lstTables = document.getElementsByTagName("table");
+    let lstTables = document.getElementsByClassName("super-table");
     let lstButton = document.getElementsByTagName("button");
     for (let i = 0; i < lstTables.length; i++) {
         if (i === n) {

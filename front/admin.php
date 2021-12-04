@@ -83,7 +83,7 @@ include("includes/header.inc.php");
 
             <!-- Rajoute un <tr> pour chaque résultat -->
             <div class="tableau">
-                <table>
+                <table class="tableau-simple">
                     <thead>
                         <tr>
                             <th>ID utilisateur</th>
@@ -109,61 +109,6 @@ include("includes/header.inc.php");
                         </tr>
                         <tr>
                             <td>Walid</td>
-                            <td>XXXXXX</td>
-                            <td><i class="fas fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Yusuf</td>
-                            <td>XXXXXX</td>
-                            <td><i class="fas fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Mohamed</td>
-                            <td>XXXXXX</td>
-                            <td><i class="fas fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Walid</td>
-                            <td>XXXXXX</td>
-                            <td><i class="fas fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Yusuf</td>
-                            <td>XXXXXX</td>
-                            <td><i class="fas fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Mohamed</td>
-                            <td>XXXXXX</td>
-                            <td><i class="fas fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Walid</td>
-                            <td>XXXXXX</td>
-                            <td><i class="fas fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Yusuf</td>
-                            <td>XXXXXX</td>
-                            <td><i class="fas fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Mohamed</td>
-                            <td>XXXXXX</td>
-                            <td><i class="fas fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Walid</td>
-                            <td>XXXXXX</td>
-                            <td><i class="fas fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Yusuf</td>
-                            <td>XXXXXX</td>
-                            <td><i class="fas fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Mohamed</td>
                             <td>XXXXXX</td>
                             <td><i class="fas fa-trash"></i></td>
                         </tr>

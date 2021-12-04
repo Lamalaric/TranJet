@@ -11,5 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="79f61c2135" level="application" />
+    <orderEntry type="library" name="highcharts.src" level="application" />
   </component>
 </module>

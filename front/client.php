@@ -93,7 +93,7 @@ include("includes/header.inc.php");
 
             <!-- Rajoute un <tr> pour chaque résultat -->
             <div class="tableau" id="tableaux-resultats">
-                <table>
+                <table class="super-table">
                     <thead>
                     <tr>
                         <th>ID remise</th>
@@ -239,7 +239,7 @@ include("includes/header.inc.php");
                     </tbody>
                 </table>
 
-                <table class="tableau-sans-option">
+                <table class="tableau-sans-option super-table">
                     <thead>
                     <tr>
                         <th>N°carte</th>
@@ -279,7 +279,7 @@ include("includes/header.inc.php");
                     </tbody>
                 </table>
 
-                <table class="tableau-sans-option">
+                <table class="tableau-sans-option super-table">
                     <thead>
                     <tr>
                         <th>Motif</th>
