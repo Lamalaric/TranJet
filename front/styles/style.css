@@ -63,6 +63,15 @@ a {
 input[type=submit] {
     cursor: pointer;
 }
+button[type=button] {
+    background-color: var(--clr-grey);
+    font-family: "Raleway regular", sans-serif;
+    font-size: 1em;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
 /* HEADER */
 header {
@@ -99,6 +108,12 @@ header a:hover::after {
     transform: scale(1,1);
 }
 
+/* FOOTER */
+footer {
+    background-color: var(--clr-accent);
+    width: 100%; height: 3em;
+    margin-top: 2em;
+}
 
 /* CONNEXION */
 .connexion h2 {
@@ -277,15 +292,6 @@ header a:hover::after {
     justify-content: space-evenly;
     align-items: center;
 }
-.container-recherche .affichage button {
-    background-color: var(--clr-grey);
-    font-family: "Raleway regular", sans-serif;
-    font-size: 1em;
-    padding: 1em 2em;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
 .container-recherche .affichage .current-display {
     background-color: var(--clr-accent);
 }
@@ -440,4 +446,9 @@ header a:hover::after {
 .container-resultats #btn-tableau-1 {
     background-color: var(--clr-white);
     border: none;
+}
+
+
+.container-export {
+    row-gap: 1em;
 }
