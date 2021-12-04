@@ -273,6 +273,15 @@ footer {
 }
 
 
+.container-graphique {
+    margin-bottom: 3em;
+}
+.graphique {
+    background-color: cyan;
+    width: 675px; height: 300px;
+}
+
+
 .container-recherche > * {
     margin-bottom: 1em;
 }

@@ -6,6 +6,12 @@ include("includes/header.inc.php");
     <body>
     <main class="po">
 
+        <!--   GRAPHIQUE    -->
+        <section class="container-graphique container">
+            <div class="graphique">
+
+            </div>
+        </section>
 
         <!--  FORMULAIRE DE RECHERCHE  -->
         <section class="container-recherche container">
